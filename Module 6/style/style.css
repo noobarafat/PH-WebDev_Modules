@@ -12,6 +12,8 @@
 /* Nav Styles */
 nav{
     display: flex;
+    align-items: center;
+    justify-content:space-between;
 }
 
 .nav-title{
@@ -21,4 +23,32 @@ nav{
 
 .nav-title-r{
     color: red;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav li a{
+    color: rgb(157, 25, 93);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-allTitle{
+    display: flex;
+    margin-right: 230px;
+    align-items: center;
+}
+
+
+.hire-me-button{
+    background-color: rgb(253, 110, 10);
+    font: bold;
+    color: white;
+    padding: 18px 35px;
+    border-radius: 5px;
+    border: 1px solid white;
+    font-size: 18px;
 }
